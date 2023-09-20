@@ -6,7 +6,7 @@ import logging
 import json
 from typing import Dict
 
-from asyncio.exceptions import CancelledError
+from asyncio import CancelledError
 
 from pymadoka.connection import Connection, ConnectionException, ConnectionStatus
 
