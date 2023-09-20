@@ -1,7 +1,7 @@
 
 
 import asyncio
-from asyncio.exceptions import CancelledError
+from asyncio import CancelledError
 from asyncio.futures import Future
 import logging                                    
  
